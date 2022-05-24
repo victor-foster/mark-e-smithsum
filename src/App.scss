@@ -20,6 +20,7 @@ main {
   background-image: url("/src/images/the-fall-band-photo.webp");
   background-position-x: center;
   background-repeat: no-repeat;
+  min-height: 100vw;
 }
 
 button {
@@ -55,12 +56,12 @@ header {
 }
 
 .ipsum {
-  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 2rem auto;
+  max-width: calc(var(--max-width));
   padding: var(--spacing);
   text-align: left;
-  max-width: calc(var(--max-width));
 }
 
 .ipsum::before {
