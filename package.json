@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "update": "yarn upgrade-interactive --latest"
   },
   "license": "MIT",
   "devDependencies": {
