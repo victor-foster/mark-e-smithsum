@@ -1,0 +1,85 @@
+:root {
+  --background-color: GhostWhite;
+  --header-color: papayawhip;
+  --text-color: papayawhip;
+  --font-family-main: "Overpass", sans-serif;
+  --font-size: clamp(1.75rem, 3vw, 2.1rem);
+  --spacing: 0.5em 1em;
+  --max-width: 450px;
+}
+
+body {
+  font-family: var(--font-family-main);
+  text-align: center;
+}
+
+main {
+  background-attachment: fixed;
+  background-color: var(--background-color, papayawhip);
+  background-attachment: fixed;
+  background-image: url("/src/images/the-fall-band-photo.webp");
+  background-position-x: center;
+  background-repeat: no-repeat;
+  min-height: 100vw;
+}
+
+button {
+  font: inherit;
+}
+
+h1 {
+  color: var(--header-color);
+  font-size: var(--font-size);
+  font-weight: bold;
+  margin-bottom: 0;
+  mix-blend-mode: difference;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--background-color, papayawhip);
+  font-size: initial;
+  font-weight: bold;
+  padding: var(--spacing);
+  margin-top: 0;
+  mix-blend-mode: difference;
+  text-transform: uppercase;
+}
+
+header {
+  background: inherit;
+  color: var(--text-color);
+  padding: var(--spacing);
+  margin: 0 auto;
+  text-align: center;
+  max-width: calc(var(--max-width));
+}
+
+.ipsum {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 2rem auto;
+  max-width: calc(var(--max-width));
+  padding: var(--spacing);
+  text-align: left;
+}
+
+.ipsum::before {
+  background-attachment: fixed;
+  background-color: var(--background-color, papayawhip);
+  background-attachment: fixed;
+  background-image: url("/src/images/the-fall-band-photo.webp");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+p {
+  padding: var(--spacing);
+  max-width: max-content;
+}
+
+select {
+  font: inherit;
+  margin-left: 1em;
+  margin-top: 1.5em;
+}
