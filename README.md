@@ -1,9 +1,7 @@
-# the-fall-ipsum-generator
+# Mark E. Smithsum
 a lorum ipsum generator of the brilliance of Mark E. Smith and the Fall
 
-### Learn more on the [Solid Website](https://solidjs.com)
-
-## Available Scripts
+## Dev Notes
 
 In the project directory, you can run:
 
