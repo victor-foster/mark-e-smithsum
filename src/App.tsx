@@ -135,8 +135,7 @@ const App: Component = () => {
   return (
     <>
       <header>
-        <h1>Mark E. Smith<i>sum</i></h1>
-        <h2><span class='the-fall'>The Fall</span>, lorum ipsum generator</h2>
+        <h1 class='the-fall'>The Fall</h1>
       </header>
       <select title="select-number-of-paragraphs" name="paragrah" id="paragrah-select" onChange={(e) => {
         const value = parseInt(e.currentTarget.value);

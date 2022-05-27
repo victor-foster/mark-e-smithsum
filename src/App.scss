@@ -1,68 +1,165 @@
 :root {
-  --background-color: GhostWhite;
-  --header-color: papayawhip;
-  --text-color: papayawhip;
-  --font-family-main: "Overpass", sans-serif;
+  --background-color: #fffff8;
+  --text-color: #112;
+  --font-family-main:  "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   --font-size: clamp(1.75rem, 3vw, 2.1rem);
   --spacing: 0.5em 1em;
   --max-width: 450px;
 }
 
-body {
+@font-face {
+  font-family: "et-book";
+  src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+  src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+  src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+  font-weight: normal;
+  font-style: italic
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+  src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "sequel-sans";
+  src:  url("/fonts/sequel-sans-heavy-body.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal
+}
+
+html {
+  box-sizing: border-box;
   font-family: var(--font-family-main);
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-size: 15px;
 }
 
-main {
-  background-attachment: fixed;
-  background-color: var(--background-color, papayawhip);
-  background-attachment: fixed;
-  background-image: url("/src/images/the-fall-band-photo.webp");
-  background-position-x: center;
-  background-repeat: no-repeat;
-  min-height: 100vw;
+@media (max-width: 786px) {
+  html {
+    font-size: 12px
+  }
 }
 
-button {
-  font: inherit;
+*,
+*:after,
+*:before,
+input, 
+button,
+select {
+  font-family: inherit;
+  box-sizing: inherit
+}
+
+body {
+  line-height: 1.4;
+  width: 48em;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  hanging-punctuation: first;
+}
+
+@media (max-width: 786px) {
+  body {
+    margin: 2em auto
+  }
+}
+
+h1, h2 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0
 }
 
 h1 {
-  color: var(--header-color);
-  font-size: var(--font-size);
-  font-weight: bold;
-  margin-bottom: 0;
-  mix-blend-mode: difference;
-  text-transform: uppercase;
+  font-size: 3.2em;
+  line-height: 1;
+  margin-top: 2em;
+  margin-bottom: .5em
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+@media (max-width: 786px) {
+  h1 {
+    margin-top: 0
+  }
 }
 
 h2 {
-  color: var(--background-color, papayawhip);
-  font-size: initial;
-  font-weight: bold;
-  padding: var(--spacing);
-  margin-top: 0;
-  mix-blend-mode: difference;
-  text-transform: uppercase;
+  font-style: italic;
+  font-size: 2.3em;
+  margin-top: 1.7em;
+  text-transform: capitalize;
+}
+
+p, ol, dl, ul {
+  font-size: 1.4em;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em
+}
+
+a:link:not([class]), a:visited:not([class]) {
+  color: inherit;
+}
+
+a:link:not([class]) {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#989892, #989892);
+  background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#989892, #989892);
+  -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+  background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  a:link:not([class]) {
+    background-position-y: 87%, 87%, 87%;
+  }
+}
+
+a:link:not([class])::selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+a:link:not([class])::-moz-selection {
+  text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+  background: #b4d5fe;
+}
+
+main {
+  min-height: 100vw;
 }
 
 header {
-  background: inherit;
-  color: var(--text-color);
   padding: var(--spacing);
-  margin: 0 auto;
   text-align: center;
-  max-width: calc(var(--max-width));
 }
 
-.ipsum {
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 2rem auto;
-  max-width: calc(var(--max-width));
-  padding: var(--spacing);
-  text-align: left;
-}
+.ipsum { }
 
 .ipsum:empty {
   display: none;
@@ -78,17 +175,12 @@ header {
 }
 
 .the-fall {
-  font-size: 300%;
-  text-shadow: 3px 3px 0px rgb(0 255 255), -3px 3px 0px rgb(255 0 255), 1px -1px 0px rgb(0 0 0), 5px -3px 0px rgb(255 255 0);
-}
-
-p {
-  padding: var(--spacing);
-  max-width: max-content;
-}
-
-select {
-  font: inherit;
-  margin-left: 1em;
-  margin-top: 1.5em;
+  font-family: 'sequel-sans', helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 
+     3px 3px 0px rgb(0 255 255), 
+    -3px 3px 0px rgb(255 0 255), 
+    1px -1px 0px rgb(0 0 0), 
+    5px -3px 0px rgb(255 255 0);
+    text-transform: uppercase;
 }
