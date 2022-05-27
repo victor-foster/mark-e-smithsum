@@ -130,9 +130,7 @@ const text = [
 ];
 
 const App: Component = () => {
-  const [ipsum, setIpsum] = createSignal([]);
-  // const [counter, setCounter] = createSignal(0);
-  // setInterval(setCounter, 1000, (c: number) => c + 1);
+  const [ipsum, setIpsum] = createSignal(['']);
 
   return (
     <>
@@ -141,11 +139,9 @@ const App: Component = () => {
         <h2>The Fall, lorum ipsum generator</h2>
       </header>
       <select title="select-number-of-paragraphs" name="paragrah" id="paragrah-select" onChange={(e) => {
-        console.log(e.currentTarget.value);
-
         const value = parseInt(e.currentTarget.value);
-        let tempText: string[] = text.slice(0, value).map(item => `<p class="result">${item}</p>`).join("");
-        setIpsum(tempText.toString());
+        let tempText = text.slice(0, value);
+        setIpsum(tempText);
       }}>
         <option value="">Select paragraghs</option>
         <option value="1">1 paragraph</option>
@@ -156,7 +152,11 @@ const App: Component = () => {
         <option value="13">13 paragraphs</option>
       </select>
       <button>Shout!</button>
-      <div class="ipsum">{ipsum}</div>
+      <div class='ipsum'>
+        {ipsum().map(item => (
+          <p>{item}</p>
+        ))}
+      </div>
     </>
   );
 };
