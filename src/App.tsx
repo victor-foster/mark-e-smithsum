@@ -135,8 +135,8 @@ const App: Component = () => {
   return (
     <>
       <header>
-        <h1>Mark E. Smithsum</h1>
-        <h2>The Fall, lorum ipsum generator</h2>
+        <h1>Mark E. Smith<i>sum</i></h1>
+        <h2><span class='the-fall'>The Fall</span>, lorum ipsum generator</h2>
       </header>
       <select title="select-number-of-paragraphs" name="paragrah" id="paragrah-select" onChange={(e) => {
         const value = parseInt(e.currentTarget.value);
@@ -153,7 +153,7 @@ const App: Component = () => {
       </select>
       <button>Shout!</button>
       <div class='ipsum'>
-        {ipsum().map(item => (
+        {ipsum().filter(ipsum => !!ipsum).map(item => (
           <p>{item}</p>
         ))}
       </div>

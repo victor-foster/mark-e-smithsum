@@ -64,6 +64,10 @@ header {
   text-align: left;
 }
 
+.ipsum:empty {
+  display: none;
+}
+
 .ipsum::before {
   background-attachment: fixed;
   background-color: var(--background-color, papayawhip);
@@ -71,6 +75,11 @@ header {
   background-image: url("/src/images/the-fall-band-photo.webp");
   background-position-x: center;
   background-repeat: no-repeat;
+}
+
+.the-fall {
+  font-size: 300%;
+  text-shadow: 3px 3px 0px rgb(0 255 255), -3px 3px 0px rgb(255 0 255), 1px -1px 0px rgb(0 0 0), 5px -3px 0px rgb(255 255 0);
 }
 
 p {
