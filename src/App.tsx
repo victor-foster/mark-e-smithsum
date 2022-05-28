@@ -1,8 +1,11 @@
 import { Component, createSignal } from 'solid-js';
 import './App.scss';
 import Counter from './Counter';
+import * as barmy from "./lyrics/barmy.md";
+
 
 const text = [
+  barmy,
   `Out of England, I dream of its creamery
   When I'm there I dwell on Saxony.
   In Turkey when I've been due to World War I
