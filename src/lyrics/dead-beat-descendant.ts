@@ -1,4 +1,4 @@
-export const deadbeatDescedant = `
+export const deadbeatDescendant = `
 Shout!
 
 Here's a dance that is pure hell

@@ -1,4 +1,4 @@
-export const sirWilliamWray = `G-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-gish! Gish!
+export const sirWilliam = `G-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-gish! Gish!
 Wa-wa-wa-wa-wa-wa-wa-wa-wa-wa-wa-waaaaaaa!
 
 Gray!
