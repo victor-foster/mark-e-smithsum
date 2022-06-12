@@ -1,5 +1,4 @@
-export const barmy = `
-Out of England, I dream of its creamery
+export const barmy = `Out of England, I dream of its creamery
 When I'm there I dwell on Saxony.
 In Turkey when I've been due to World War I
 Istanbul is the place 'cause of my birthday.
