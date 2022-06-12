@@ -15,7 +15,6 @@ import { iFeel } from './i-feel-voxish';
 import { itsACurse } from './its-a-curse';
 import { justStepSWays } from './just-step-sways';
 import { livingTooLate } from './living-too-late';
-import { newBigPrinz } from './new-big-prinz';
 import { paranoiaMan } from './paranoia-man-in-cheap-shit-room';
 import { rudeAllTheTime } from './rude-all-the-time';
 import { shoulderPads } from './shoulder-pads';
@@ -26,36 +25,33 @@ import { imTotallyWired } from './totally-wired';
 import { victrolaTime } from './victrola-time';
 import { vixen } from './vixen';
 import { whiteLightning } from './white-lightning';
-import { wiseOlMan } from './wise-ol-man';
 
 export const lyrics = [
-	barmy,
-	behindTheCounter,
-	bloodOuttaStone,
-	bombast,
-	brillo,
-	bury,
-	cabItUp,
-	getAhead,
-	cruisersCreek,
-	deadbeatDescendant,
-	distilledMugArt,
-	flatOfAngles,
-	gibson,
-	iFeel,
-	itsACurse,
-	justStepSWays,
-	livingTooLate,
-	newBigPrinz,
-	paranoiaMan,
-	rudeAllTheTime,
-	shoulderPads,
-	sirWilliam,
-	takingOff,
-	theSteakPlace,
-	imTotallyWired,
-	victrolaTime,
-	vixen,
-	whiteLightning,
-	wiseOlMan,
+  barmy,
+  behindTheCounter,
+  bloodOuttaStone,
+  bombast,
+  brillo,
+  bury,
+  cabItUp,
+  getAhead,
+  cruisersCreek,
+  deadbeatDescendant,
+  distilledMugArt,
+  flatOfAngles,
+  gibson,
+  iFeel,
+  itsACurse,
+  justStepSWays,
+  livingTooLate,
+  paranoiaMan,
+  rudeAllTheTime,
+  shoulderPads,
+  sirWilliam,
+  takingOff,
+  theSteakPlace,
+  imTotallyWired,
+  victrolaTime,
+  vixen,
+  whiteLightning,
 ];
