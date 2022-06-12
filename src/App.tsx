@@ -30,7 +30,7 @@ import { vixen } from './lyrics/vixen';
 import { whiteLightning } from './lyrics/white-lightning';
 import { wiseOlMan } from './lyrics/wise-ol-man';
 
-let text = [
+const lyrics = [
   barmy, behindTheCounter, bloodOuttaStone, bombast, bury, cabItUp, 
   couldntGetAhead, cruisersCreek, deadbeatDescedant, distilledMugArt, 
   flatOfAngles, gibbusGibson, iFeelVoxish, itsACurse, justStepSWays, livingTooLate, newBigPrinz,
@@ -39,8 +39,8 @@ let text = [
 ];
 
 const getRandomItem = () => {
-  const randomIndex = Math.floor(Math.random() * text.length);
-  const item = text[randomIndex];
+  const randomIndex = Math.floor(Math.random() * lyrics.length);
+  const item = lyrics[randomIndex];
   return item;
 }
 
