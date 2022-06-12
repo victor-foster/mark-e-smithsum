@@ -10,6 +10,7 @@ import { cabItUp } from './lyrics/cab-it-up';
 import { couldntGetAhead } from './lyrics/couldnt-get-ahead';
 import { cruisersCreek } from './lyrics/cruisers-creek';
 import { deadbeatDescedant } from './lyrics/dead-beat-descendant';
+import { devolute } from './lyrics/devolute';
 import { distilledMugArt } from './lyrics/distilled-mug-art';
 import { flatOfAngles } from './lyrics/flat-of-angles';
 import { gibbusGibson } from './lyrics/gibbus-gibson';
@@ -32,7 +33,7 @@ import { wiseOlMan } from './lyrics/wise-ol-man';
 
 const lyrics = [
   barmy, behindTheCounter, bloodOuttaStone, bombast, bury, cabItUp, 
-  couldntGetAhead, cruisersCreek, deadbeatDescedant, distilledMugArt, 
+  couldntGetAhead, cruisersCreek, deadbeatDescedant, devolute, distilledMugArt, 
   flatOfAngles, gibbusGibson, iFeelVoxish, itsACurse, justStepSWays, livingTooLate, newBigPrinz,
   paranoiaMan, rudeAllTheTime, shoulderPads, sirWilliamWray, takingOff,
   theSteakPlace, imTotallyWired, victrolaTime, vixen, whiteLightning, wiseOlMan
