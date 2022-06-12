@@ -5,7 +5,7 @@ import './App.scss';
 
 const generate = (size = 1) => {
   const truncate = (paragraph = '') => {
-    const paragraphLength = (min = 37, max = 84) => {
+    const paragraphLength = (min = 31, max = 82) => {
       return Math.round(Math.random() * (max - min) + min);
     };
 
