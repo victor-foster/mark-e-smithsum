@@ -1,5 +1,7 @@
-import { Component, createSignal } from 'solid-js';
+import { Component, createSignal, For, Match, Switch } from 'solid-js';
 import './App.scss';
+import Header from './Header';
+import { Transition, TransitionGroup } from 'solid-transition-group';
 import { barmy } from './lyrics/barmy';
 import { behindTheCounter } from './lyrics/behind-the-counter';
 import { bloodOuttaStone } from './lyrics/blood-outta-stone';
@@ -73,9 +75,7 @@ const App: Component = () => {
 
 	return (
 		<>
-			<header>
-				<h1 class='the-fall'>The Fall</h1>
-			</header>
+			<Header />
 			<select
 				title='select-number-of-paragraphs'
 				name='paragrah'
