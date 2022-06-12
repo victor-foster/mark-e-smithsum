@@ -1,4 +1,4 @@
-export const gibson = `Talks to
+export const gibbusGibson = `Talks to
 The dancers
 Malicious
 He goes
