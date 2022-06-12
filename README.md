@@ -47,16 +47,6 @@
   - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
 - [:gem: Acknowledgements](#gem-acknowledgements)
 
-  - [:star2: About the Project](#star2-about-the-project)
-    - [:space_invader: Tech Stack](#space_invader-tech-stack)
-  - [:toolbox: Getting Started](#toolbox-getting-started)
-    - [:bangbang: Prerequisites](#bangbang-prerequisites)
-    - [:gear: Installation](#gear-installation)
-    - [:test_tube: Running Tests](#test_tube-running-tests)
-    - [:running: Run Locally](#running-run-locally)
-    - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
-  - [:gem: Acknowledgements](#gem-acknowledgements)
-
 <!-- About the Project -->
 
 ## :star2: About the Project
@@ -155,23 +145,6 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-<!-- License
-
-## :warning: License
-
-Distributed under the GNU GENERAL PUBLIC LICENSE. See LICENSE.txt for more information.
-
--->
-
-<!-- Contact
-
-## :handshake: Contact
-
-Victor Foster - [@victor_foster](https://twitter.com/victor_foster)
-
-Project Link: [https://github.com/victor-foster/mark-e-smithsum/](https://github.com/victor-foster/mark-e-smithsum/)
--->
 
 <!-- Acknowledgments -->
 
