@@ -1,14 +1,19 @@
 {
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"cSpell.words": [
-		"browserslist",
-		"figcaption",
-		"pageview",
-	],
-	"prettier.eslintIntegration": true,
-	"prettier.stylelintIntegration": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": [
+    "browserslist",
+    "couldnt",
+    "disneys",
+    "figcaption",
+    "gibbus",
+    "pageview",
+    "Smithsum",
+    "voxish"
+  ],
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true
 }

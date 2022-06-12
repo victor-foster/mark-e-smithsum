@@ -6,7 +6,8 @@ Rude all the time
 Where did you get your looks?
 Did you get them from a book?
 You look like you just don't care
-[I really like your hair] (2)
+I really like your hair
+I really like your hair
 
 Cool as a breeze she blows
 Autumn she reaps and summer she sows
@@ -27,7 +28,7 @@ Rude all the time
 You're a degenerated half-wit
 And you live on a drop of milk from a thimble
 
-[I wanna take you home
+I wanna take you home
 I wanna be with you
 I wanna take you home
 I wanna sleep with you

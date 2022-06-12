@@ -35,7 +35,7 @@ Fearing catastrophe to meet
 Walk down the devil's boulevard
 But still my heart is hard
 
-They say them cellars [were't even/were evil] black
+They say them cellars were't even, were evil black
 But I know they're wrong
 Think it's one
 Been
