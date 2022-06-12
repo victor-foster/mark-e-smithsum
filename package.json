@@ -1,25 +1,30 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "Mark E. Smithsum -- The Fall lorum ipsum generator",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "update": "yarn upgrade-interactive --latest"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
-    "eslint": ">=8.14.0",
-    "eslint-config-xo": "^0.41.0",
-    "sass": "^1.52.3",
-    "typescript": "^4.7.3",
-    "vite": "^2.9.12",
-    "vite-plugin-solid": "^2.2.6"
-  },
-  "dependencies": {
-    "solid-js": "^1.4.4"
-  }
+	"name": "vite-template-solid",
+	"version": "0.0.0",
+	"description": "Mark E. Smithsum -- The Fall lorum ipsum generator",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"fix-code": "prettier-eslint --write 'src/**/*.{js,jsx,ts,tsx}' ",
+		"fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' ",
+		"serve": "vite preview",
+		"update": "yarn upgrade-interactive --latest"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.27.1",
+		"@typescript-eslint/parser": "^5.27.1",
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-xo": "^0.41.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"prettier": "^2.6.2",
+		"sass": "^1.52.3",
+		"typescript": "^4.7.3",
+		"vite": "^2.9.12",
+		"vite-plugin-solid": "^2.2.6"
+	},
+	"dependencies": {
+		"solid-js": "^1.4.4"
+	}
 }
