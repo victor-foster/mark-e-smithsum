@@ -39,6 +39,13 @@
 ## :notebook_with_decorative_cover: Table of Contents
 
 - [:notebook_with_decorative_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
+- [:star2: About the Project](#star2-about-the-project)
+  - [:space_invader: Tech Stack](#space_invader-tech-stack)
+- [:toolbox: Getting Started](#toolbox-getting-started)
+  - [:bangbang: Prerequisites](#bangbang-prerequisites)
+  - [:running: Development](#running-development)
+  - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
+- [:gem: Acknowledgements](#gem-acknowledgements)
 
   - [:star2: About the Project](#star2-about-the-project)
     - [:space_invader: Tech Stack](#space_invader-tech-stack)
@@ -48,11 +55,7 @@
     - [:test_tube: Running Tests](#test_tube-running-tests)
     - [:running: Run Locally](#running-run-locally)
     - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
-  - [:warning: License](#warning-license)
-  - [:handshake: Contact](#handshake-contact)
   - [:gem: Acknowledgements](#gem-acknowledgements)
-  - [Development](#development)
-  - [Deployment](#deployment)
 
 <!-- About the Project -->
 
@@ -153,24 +156,27 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-<!-- License -->
+<!-- License
 
 ## :warning: License
 
 Distributed under the GNU GENERAL PUBLIC LICENSE. See LICENSE.txt for more information.
 
-<!-- Contact -->
+-->
+
+<!-- Contact
 
 ## :handshake: Contact
 
 Victor Foster - [@victor_foster](https://twitter.com/victor_foster)
 
 Project Link: [https://github.com/victor-foster/mark-e-smithsum/](https://github.com/victor-foster/mark-e-smithsum/)
+-->
 
 <!-- Acknowledgments -->
 
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+Thank you to these fantastic resources and libraries.
 
 - [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template)
