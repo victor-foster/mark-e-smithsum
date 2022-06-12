@@ -1,4 +1,4 @@
-The wise old man
+export const wiseOlMan = `The wise old man
 All and around
 He was
 Fair and just
@@ -56,4 +56,4 @@ He went to the butcher
 Wise old man (Didn't exist)
 He went to the butcher
 Wise old man (Didn't exist)
-Wise old man
+Wise old man`;

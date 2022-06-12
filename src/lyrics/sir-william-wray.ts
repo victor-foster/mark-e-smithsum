@@ -1,4 +1,4 @@
-G-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-gish! Gish!
+export const sirWilliamWray = `G-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-g-gish! Gish!
 Wa-wa-wa-wa-wa-wa-wa-wa-wa-wa-wa-waaaaaaa!
 
 Gray!
@@ -47,4 +47,4 @@ Sir William Wray
 
 Wray! Hey, Wray! Wray! Wray!
 
-Sir William Wray
+Sir William Wray`;

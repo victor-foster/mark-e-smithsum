@@ -1,4 +1,4 @@
-Dragnet for gun-blast man
+export const flatOfAngles = `Dragnet for gun-blast man
 The papers had a father
 Holding up a picture
 His son-in-law killed her
@@ -53,8 +53,8 @@ A big reward for gun-blast man
 A big reward for gun-blast man
 A big reward for gun-blast man
 
-Let us go up and [?] write stories
+Let us go up and write stories
 
 Dragnet...
 
-Phone in for the Dragnet man
+Phone in for the Dragnet man`;

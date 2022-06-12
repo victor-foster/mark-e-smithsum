@@ -1,4 +1,4 @@
-What really went on there?
+export const cruisersCreek = `What really went on there?
 we only have this excerpt:
 
 There's a party going on down around here
@@ -87,4 +87,4 @@ Cruiser's Creek
 Nuptial!
 Annual!
 Freaks limited!
-Cruiser's Creek!
+Cruiser's Creek!`;

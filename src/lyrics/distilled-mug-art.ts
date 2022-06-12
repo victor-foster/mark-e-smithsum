@@ -1,4 +1,4 @@
-Oh two
+export const distilledMugArt = `Oh two
 Dot three, oh
 
 (The god)
@@ -49,4 +49,4 @@ Oh oh
 Six eight
 Distilled to order
 Faces distilled to order
-Digital mug art
+Digital mug art`;

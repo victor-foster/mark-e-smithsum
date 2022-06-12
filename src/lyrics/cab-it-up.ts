@@ -1,4 +1,4 @@
-Cabbing it uptown
+export const cabItUp = `Cabbing it uptown
 You're moving it uptown
 You taxi it uptown uptown
 
@@ -58,4 +58,4 @@ You'd better cab it slowly
 You'd better cab it up
 
 Jump in! Jump in!
-Michael! Michael!
+Michael! Michael!`;

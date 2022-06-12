@@ -176,6 +176,14 @@ header {
   background-repeat: no-repeat;
 }
 
+.ipsum p {
+  overflow: hidden;
+  text-overflow: " [..]";
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 .the-fall {
   color: rgba(55, 54, 36, 0.74);
   font-family: 'sequel-sans', helvetica, ariel, sans-serif;

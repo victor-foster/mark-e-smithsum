@@ -1,4 +1,4 @@
-All these fads
+export const shoulderPads = `All these fads
 It's shoulder pads
 On New Year's dawn
 To my surprise
@@ -36,4 +36,4 @@ Was clowned
 Shoulder pads
 (Spawned)
 
-Then my powers did return...
+Then my powers did return...`;

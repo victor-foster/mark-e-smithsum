@@ -1,4 +1,4 @@
-Rockin' records
+export const newBigPrinz = `Rockin' records
 Rockin' records
 Rock the record
 Rockin' records
@@ -86,4 +86,4 @@ Rockin' records
 Rockin' records
 
 Rockin' records
-Rockin' rec - rock's records
+Rockin' rec - rock's records`;

@@ -1,4 +1,4 @@
-It had taken her a long time
+export const vixen = `It had taken her a long time
 Suddenly back on its own
 To sit, friendless & alone
 She is friendless and alone
@@ -37,4 +37,4 @@ Vixen's got no home
 She is friendless and alone
 A long time on its own
 It shone around her
-Triple gang
+Triple gang`;

@@ -1,3 +1,4 @@
+export const deadbeatDescedant = `
 Shout!
 
 Here's a dance that is pure hell
@@ -27,4 +28,4 @@ Of a vicious criminal
 
 Dead beat descendant's
 Dawn!
-Dawn!
+Dawn!`;

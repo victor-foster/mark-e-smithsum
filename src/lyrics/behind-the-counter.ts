@@ -1,4 +1,4 @@
-They're always hitting on me
+export const behindTheCounter = `They're always hitting on me
 But I'm getting thin
 From waiting on
 They just want me to be
@@ -32,4 +32,4 @@ Get behind the counter
 The other side of the counter
 
 Chill it, boy
-The other side of the counter
+The other side of the counter`;

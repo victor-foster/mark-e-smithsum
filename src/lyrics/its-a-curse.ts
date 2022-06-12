@@ -1,4 +1,4 @@
-It's a curse
+export const itsACurse = `It's a curse
 Well thy forsooth
 Who is that interesting hack over there?
 By Gad, verily
@@ -68,4 +68,4 @@ Shafted over
 Trying to bolt out of
 Waiting for you
 It's a curse
-I tell ya, it's a curse
+I tell ya, it's a curse`;

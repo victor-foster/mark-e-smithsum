@@ -1,4 +1,4 @@
-Unfortunately I'm coming from a bad end
+export const bloodOuttaStone = `Unfortunately I'm coming from a bad end
 And I'm destined for a bad end
 
 But hanging around with you is like blood outta stone
@@ -26,4 +26,4 @@ You're mutton dressed as lamb
 Cos you're blood outta stone
 At least I've got an aim, chick
 Blood outta stone
-But I'm working to an aim
+But I'm working to an aim`;

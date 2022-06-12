@@ -1,4 +1,4 @@
-A pillbox crisp
+export const iFeelVoxish = `A pillbox crisp
 Offer, offer, it was not an unreasonable offer
 
 A pillbox crisp, that French git
@@ -26,4 +26,4 @@ But it made me hungry
 For victuals could not raise nor buy
 
 Feel vox crisp
-And voxish
+And voxish`;

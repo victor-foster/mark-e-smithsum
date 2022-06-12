@@ -1,4 +1,4 @@
-Talks to
+export const gibbusGibson = `Talks to
 The dancers
 Malicious
 He goes
@@ -34,4 +34,4 @@ Yeah
 
 Oh ma, please, stand
 I've been in jail
-You set sail
+You set sail`;

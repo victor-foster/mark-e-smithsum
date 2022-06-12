@@ -1,13 +1,15 @@
-When what used to excite you does not
+export const justStepSWays = `When what used to excite you does not
 Like you've used up all your allowance of experiences
 Head filled with a mass of too-well-known people
-([This is an important aspect of Big Priest.
+(This is an important aspect of Big Priest.
 His hypnotic induction process.
-His] commercial last chance)
+His commercial last chance)
+
 Just step sideways from this world today
 Just step sideways round this place today
 Just step sideways round this world today
 Just step outside this grubby place today
+
 Don't ever hit that vulgar cave
 The joker says: 'Go the opposite way'
 Just step outside this futurist world today
@@ -25,9 +27,12 @@ Don't let it whip ya
 Jump on the back of nicotine
 Hit those lung wurm back rays
 Just step outside this future world today
-Today X6
+Today Today Today Today Today Today
 .World today
 Just step sideways from this place today
 Jump on the back of nicotine
 Just step outside this future world today
-Today X 4
+Today
+Today
+Today
+Today`;
