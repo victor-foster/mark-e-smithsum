@@ -1,4 +1,4 @@
-Couldn't get ahead
+export const couldntGetAhead = `Couldn't get ahead
 I just couldn't get ahead
 
 Come out of pub, the shop is closed
@@ -43,4 +43,4 @@ Have a Ghandi at me
 Colour mags wish me well
 No more, no get ahead.
 
-Couldn't get ahead. Just couldn't get ahead.
+Couldn't get ahead. Just couldn't get ahead.`;

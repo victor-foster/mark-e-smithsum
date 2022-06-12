@@ -1,4 +1,4 @@
-Cool as a breeze she blows
+export const rudeAllTheTime = `Cool as a breeze she blows
 Autumn she reaps and summer she sows
 But she's rude all the time
 Rude all the time
@@ -40,4 +40,4 @@ Rude all the time
 It's like when you're in love 
 The choice is hard and rough
 Suppose I've got it wrong
-A little something to end this song
+A little something to end this song`;

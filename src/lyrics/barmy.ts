@@ -1,3 +1,4 @@
+export const barmy = `
 Out of England, I dream of its creamery
 When I'm there I dwell on Saxony.
 In Turkey when I've been due to World War I
@@ -52,4 +53,4 @@ Take and bring a word
 Ring a buzzer
 Take and bring a word
 
-A dramatic verse
+A dramatic verse`;

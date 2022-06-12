@@ -1,4 +1,4 @@
-Crow's feet are ingrained on my face
+export const livingTooLate = `Crow's feet are ingrained on my face
 And I'm living too late
 Try to wash the black off my face, but it's ingrained
 And I'm living too late
@@ -39,4 +39,4 @@ They say them cellars [were't even/were evil] black
 But I know they're wrong
 Think it's one
 Been
-Living Too Long
+Living Too Long`;

@@ -1,4 +1,4 @@
-Paranoid man
+export const paranoiaMan = `Paranoid man
 In mid 30s
 At the height of paranoia
 At the zenith of his powers
@@ -45,4 +45,4 @@ Prefers karaoka
 Cheap shit half-dollar man
 The sky calendar
 Bar, home
-Speculates
+Speculates`;

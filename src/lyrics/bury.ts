@@ -1,4 +1,4 @@
-I'm not from Bury
+export const bury = `I'm not from Bury
 I'm not from Bury, man
 I'm not from Bury
 I'm not from Bury, man
@@ -72,4 +72,4 @@ Ben Marshall's articles
 Or user recordings
 On his vile manufacturing community
 
-I'm from Bury
+I'm from Bury`;

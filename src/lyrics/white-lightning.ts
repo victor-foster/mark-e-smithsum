@@ -1,4 +1,4 @@
-In North Carolina way back in the hills
+export const whiteLightning = `In North Carolina way back in the hills
 Lived my pappy and he had him a still
 He brewed white lightning 'til the sun go down
 Then he'd get out a jug and pass it around
@@ -23,4 +23,4 @@ I wanna get a taste of the powerful stuff"
 Took one slug and drank it right down
 And I heard him moaning as he hit the ground
 
-Shout!
+Shout!`;

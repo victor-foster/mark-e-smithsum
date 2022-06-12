@@ -1,4 +1,4 @@
-Take off!
+export const takingOff = `Take off!
 6pm, Bonjela complexion
 Taking off
 Stress at four is forbid
@@ -31,4 +31,4 @@ Take off
 In success, respect
 Digress, before
 Eon, take off
-Stop, take off
+Stop, take off`;

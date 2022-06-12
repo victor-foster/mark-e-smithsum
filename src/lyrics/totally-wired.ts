@@ -1,4 +1,4 @@
-I'm totally wired.
+export const imTotallyWired = `I'm totally wired.
 Can't you see?
 I'm totally wired.
 
@@ -31,4 +31,4 @@ I'm totally wired.
 
 My heart and I agree.
 
-I'm always worried.
+I'm always worried.`;

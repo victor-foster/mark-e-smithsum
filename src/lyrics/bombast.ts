@@ -1,3 +1,4 @@
+export const bombast = `
 All those whose mind entitles themselves, and whose main entitle is themselves shall feel the wrath of my bombast
 
 Clanging in my heart
@@ -19,4 +20,4 @@ Clanging in my heart
 
 Ah ah ah ah ah
 
-All those whose mind entitles themselves, and whose main entitle is themselves shall feel the wrath of bombast
+All those whose mind entitles themselves, and whose main entitle is themselves shall feel the wrath of bombast`;

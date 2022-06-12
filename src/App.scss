@@ -1,5 +1,5 @@
 :root {
-  --background-color: #fffff8;
+  --background-color: #fff;
   --text-color: #112;
   --font-family-main:  "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   --font-size: clamp(1.75rem, 3vw, 2.1rem);
@@ -89,7 +89,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1;
   margin-top: 2em;
   margin-bottom: .5em
@@ -159,7 +159,9 @@ header {
   text-align: center;
 }
 
-.ipsum { }
+.ipsum p {
+  hanging-punctuation: first;
+ }
 
 .ipsum:empty {
   display: none;
@@ -174,12 +176,19 @@ header {
   background-repeat: no-repeat;
 }
 
+.ipsum p {
+  overflow: hidden;
+  text-overflow: " [..]";
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 .the-fall {
-  font-family: 'sequel-sans', helvetica, sans-serif;
+  color: rgba(55, 54, 36, 0.74);
+  font-family: 'sequel-sans', helvetica, ariel, sans-serif;
   font-weight: bold;
   text-shadow: 
-  -5px 0px 0px rgb(0 174 236), 
-  3px 0px 0px rgb(255 0 255), 
-  9px 0px 0px rgb(255 241 3);
+  -7px 0px 0px rgb(0 174 236), 0px 0px 0px rgb(255 0 255), 6px 0px 0px rgba(0, 169, 79, 0.5), 14px 0px 0px rgb(255 241 3);
   text-transform: uppercase;
 }

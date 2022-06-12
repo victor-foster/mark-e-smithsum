@@ -1,4 +1,4 @@
-Head down
+export const theSteakPlace = `Head down
 Head down
 Head, head, head down.
 
@@ -53,4 +53,4 @@ The steak place.
 
 I want to stay here,
 I don't want to go anywhere,
-I shall remain here.
+I shall remain here.`;
