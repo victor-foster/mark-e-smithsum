@@ -29,8 +29,8 @@ const App: Component = () => {
       <Header />
       <select
         title='select-number-of-paragraphs'
-        name='paragrah'
-        id='paragrah-select'
+        name='paragraph'
+        id='paragraph-select'
         onChange={(e) => {
           const size = parseInt(e.currentTarget.value, 10) ?? 1;
           setSmithsum(generate(size));
