@@ -136,16 +136,6 @@
 
 -->
 
-<!-- Env Variables -->
-
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
 <!-- Getting Started -->
 
 ## :toolbox: Getting Started
@@ -158,17 +148,6 @@ This project uses Yarn as package manager
 
 ```bash
  npm install --global yarn
-```
-
-<!-- Installation -->
-
-### :gear: Installation
-
-Install my-project with npm
-
-```bash
-  yarn install my-project
-  cd my-project
 ```
 
 <!-- Running Tests -->
@@ -185,18 +164,6 @@ To run tests, run the following command
 
 ### :running: Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
 Install dependencies
 
 ```bash
@@ -206,8 +173,11 @@ Install dependencies
 Start the server
 
 ```bash
-  yarn start
+  yarn dev
 ```
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 <!-- Deployment -->
 
@@ -216,10 +186,16 @@ Start the server
 To deploy this project run
 
 ```bash
-  yarn deploy
+  yarn run build
 ```
 
-<!-- Usage -->
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+<!-- Usage
 
 ## :eyes: Usage
 
@@ -232,15 +208,18 @@ function App() {
 	return <Component />;
 }
 ```
+-->
 
-<!-- Roadmap -->
+<!-- Roadmap
 
 ## :compass: Roadmap
 
 - [x] Todo 1
 - [ ] Todo 2
 
-<!-- Contributing -->
+-->
+
+<!-- Contributing
 
 ## :wave: Contributing
 
@@ -252,13 +231,17 @@ Contributions are always welcome!
 
 See `contributing.md` for ways to get started.
 
-<!-- Code of Conduct -->
+-->
+
+<!-- Code of Conduct
 
 ### :scroll: Code of Conduct
 
 Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
 
-<!-- FAQ -->
+-->
+
+<!-- FAQ
 
 ## :grey_question: FAQ
 
@@ -270,19 +253,21 @@ Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-te
 
   - Answer 2
 
+-->
+
 <!-- License -->
 
 ## :warning: License
 
-Distributed under the no License. See LICENSE.txt for more information.
+Distributed under the GNU GENERAL PUBLIC LICENSE. See LICENSE.txt for more information.
 
 <!-- Contact -->
 
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Victor Foster - [@twitter_handle](https://twitter.com/victor_foster) - email@email_client.com
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Project Link: [https://github.com/victor-foster/mark-e-smithsum/](https://github.com/victor-foster/mark-e-smithsum/)
 
 <!-- Acknowledgments -->
 
@@ -290,30 +275,4 @@ Project Link: [https://github.com/Louis3797/awesome-readme-template](https://git
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
-- [Shields.io](https://shields.io/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
-- [Readme Template](https://github.com/othneildrew/Best-README-Template)
-
-## Dev Notes
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+- [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template)
