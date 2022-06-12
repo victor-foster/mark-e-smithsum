@@ -16,7 +16,7 @@ I got bills
 I got bills
 On my elbows
 And two kids to go with it
-I kill ... 
+I kill ...
 
 I'm on, I'm on
 All that road is battle, battle plan

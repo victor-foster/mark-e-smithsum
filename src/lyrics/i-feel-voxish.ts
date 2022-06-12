@@ -1,4 +1,4 @@
-export const iFeelVoxish = `A pillbox crisp
+export const iFeel = `A pillbox crisp
 Offer, offer, it was not an unreasonable offer
 
 A pillbox crisp, that French git
