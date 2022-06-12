@@ -3,21 +3,26 @@ import Header from './Header';
 import { lyrics } from './lyrics';
 import './App.scss';
 
-const truncate = (str = '') => {
-  const numberOfWords = (min = 45, max = 84) => {
-    return parseInt(Math.random() * (max - min) + min, 10);
+const generate = (size = 1) => {
+  const truncate = (paragraph = '') => {
+    const paragraphLength = (min = 37, max = 84) => {
+      return Math.round(Math.random() * (max - min) + min);
+    };
+
+    const truncated = `${paragraph.split(' ').splice(0, paragraphLength()).join(' ')}.`;
+    return truncated;
   };
 
-  return `${str.split(' ').splice(0, numberOfWords()).join(' ')}.`;
-};
+  const byRandom = () => 0.5 - Math.random();
 
-const lyricsFor = (numberOfParagraphs = 1) => {
-  const randomizedLyrics = [...lyrics].sort(() => 0.5 - Math.random());
-  return randomizedLyrics.slice(0, numberOfParagraphs).map((p) => truncate(p));
+  return [...lyrics]
+    .sort(byRandom)
+    .slice(0, size)
+    .map((paragraph: string) => truncate(paragraph));
 };
 
 const App: Component = () => {
-  const [ipsum, setIpsum] = createSignal(['']);
+  const [smithsum, setSmithsum] = createSignal(['']);
 
   return (
     <>
@@ -27,9 +32,8 @@ const App: Component = () => {
         name='paragrah'
         id='paragrah-select'
         onChange={(e) => {
-          const numberOfParagraphs = parseInt(e.currentTarget.value, 10) ?? 1;
-
-          setIpsum(lyricsFor(numberOfParagraphs));
+          const size = parseInt(e.currentTarget.value, 10) ?? 1;
+          setSmithsum(generate(size));
         }}
       >
         <option value=''>Select paragraghs</option>
@@ -42,7 +46,7 @@ const App: Component = () => {
       </select>
       <button>Shout!</button>
       <div class='ipsum'>
-        {ipsum()
+        {smithsum()
           .filter((ipsum) => Boolean(ipsum))
           .map((item) => (
             <p>{item}</p>

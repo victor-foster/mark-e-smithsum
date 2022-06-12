@@ -4,7 +4,16 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["browserslist", "couldnt", "figcaption", "gibbus", "pageview", "voxish"],
+  "cSpell.words": [
+    "browserslist",
+    "couldnt",
+    "disneys",
+    "figcaption",
+    "gibbus",
+    "pageview",
+    "Smithsum",
+    "voxish"
+  ],
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true
 }
