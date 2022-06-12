@@ -1,21 +1,31 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "Mark E. Smithsum -- The Fall lorum ipsum generator",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "update": "yarn upgrade-interactive --latest"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "sass": "^1.52.3",
-    "typescript": "^4.7.3",
-    "vite": "^2.9.12",
-    "vite-plugin-solid": "^2.2.6"
-  },
-  "dependencies": {
-    "solid-js": "^1.4.4"
-  }
+	"name": "vite-template-solid",
+	"version": "0.0.0",
+	"description": "Mark E. Smithsum -- The Fall lorum ipsum generator",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"update": "yarn upgrade-interactive --latest"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"postcss": "^8.4.14",
+		"prettier": "^2.6.2",
+		"prettier-stylelint": "^0.4.2",
+		"sass": "^1.52.3",
+		"stylelint": "^14.8.3",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-sass-guidelines": "^9.0.1",
+		"stylelint-prettier": "^2.0.0",
+		"typescript": "^4.7.3",
+		"vite": "^2.9.12",
+		"vite-plugin-solid": "^2.2.6"
+	},
+	"dependencies": {
+		"solid-js": "^1.4.4"
+	}
 }
