@@ -36,7 +36,7 @@
 
 <!-- Table of Contents -->
 
-# :notebook_with_decorative_cover: Table of Contents
+## :notebook_with_decorative_cover: Table of Contents
 
 - [:notebook_with_decorative_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
 
@@ -77,8 +77,9 @@
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   </ul>
 </details>
+
 <details>
-<summary>DevOps</summary>
+  <summary>DevOps</summary>
   <ul>
     <li><a href="https://www.netlify.com/">Netlify</a></li>
   </ul>
@@ -98,7 +99,7 @@ This project uses Yarn as package manager
  npm install --global yarn
 ```
 
-<!-- Running Tests -->
+<!-- Running Tests
 
 ### :test_tube: Running Tests
 
@@ -107,6 +108,7 @@ To run tests, run the following command
 ```bash
   yarn test test
 ```
+-->
 
 <!-- Run Locally -->
 
@@ -127,7 +129,7 @@ Start the server
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Update packages
+Updating packages
 
 ```bash
   yarn update
