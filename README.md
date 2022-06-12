@@ -87,29 +87,6 @@
   </ul>
 </details>
 
-<!-- Features
-
-### :dart: Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
- -->
-
-<!-- Color Reference
-
-### :art: Color Reference
-
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color    | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color      | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
--->
-
 <!-- Getting Started -->
 
 ## :toolbox: Getting Started
@@ -152,6 +129,14 @@ Start the server
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Update packages
+
+```bash
+  yarn update
+```
+
+Updates the packages in the project.
 
 <!-- Deployment -->
 
