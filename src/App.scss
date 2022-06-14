@@ -91,7 +91,8 @@ body {
 
 .app {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 61.8% 38.2%;
+  min-height: 100vw;
   width: 100%;
 }
 
@@ -107,12 +108,11 @@ body {
 }
 
 .background-image {
-  background-image: url('/src/images/fall-photo-3.jpeg');
+  background-color: var(--background-color, #f4f3ee);
+  background-attachment: fixed;
+  background-image: url('/src/images/fall-photo-1.jpeg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position-x: right;
   min-height: 100vw;
 }
 
@@ -198,40 +198,20 @@ a:link:not([class])::-moz-selection {
   background: #b4d5fe;
 }
 
-main {
-  min-height: 100vw;
-}
-
 header {
-  padding: var(--spacing);
+  padding: 0;
   text-align: left;
-}
-
-.ipsum p {
-  hanging-punctuation: first;
 }
 
 .ipsum:empty {
   display: none;
 }
 
-// .ipsum::before {
-//   background-attachment: fixed;
-//   background-color: var(--background-color, papayawhip);
-//   background-attachment: fixed;
-//   background-image: url('/src/images/the-fall-band-photo.webp');
-//   background-position-x: center;
-//   background-repeat: no-repeat;
-// }
-
-.ipsum p {
-  hanging-punctuation: last force-end;
-}
-
 .the-fall {
   color: rgba(55, 54, 36, 0.74);
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
+  margin: 1rem 0 1rem;
   text-shadow: -7px 0px 0px rgb(0 174 236), 0px 0px 0px rgb(255 0 255),
     6px 0px 0px rgba(0, 169, 79, 0.5), 14px 0px 0px rgb(255 241 3);
   text-transform: uppercase;
