@@ -79,18 +79,41 @@ select {
 
 body {
   line-height: 1.4;
-  width: 48em;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
-  hanging-punctuation: first;
 }
 
 @media (max-width: 786px) {
   body {
     margin: 2em auto;
   }
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.column-a {
+  grid-column: 1;
+  height: 100vh;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.column-b {
+  grid-column: 2;
+}
+
+.background-image {
+  background-image: url('/src/images/fall-photo-3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vw;
 }
 
 h1,
@@ -181,7 +204,7 @@ main {
 
 header {
   padding: var(--spacing);
-  text-align: center;
+  text-align: left;
 }
 
 .ipsum p {
@@ -192,14 +215,14 @@ header {
   display: none;
 }
 
-.ipsum::before {
-  background-attachment: fixed;
-  background-color: var(--background-color, papayawhip);
-  background-attachment: fixed;
-  background-image: url('/src/images/the-fall-band-photo.webp');
-  background-position-x: center;
-  background-repeat: no-repeat;
-}
+// .ipsum::before {
+//   background-attachment: fixed;
+//   background-color: var(--background-color, papayawhip);
+//   background-attachment: fixed;
+//   background-image: url('/src/images/the-fall-band-photo.webp');
+//   background-position-x: center;
+//   background-repeat: no-repeat;
+// }
 
 .ipsum p {
   hanging-punctuation: last force-end;
