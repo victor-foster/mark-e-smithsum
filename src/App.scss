@@ -90,29 +90,35 @@ body {
 }
 
 .app {
-  display: grid;
-  grid-template-columns: 61.8% 38.2%;
+  // grid-template-columns: 61.8% 38.2%;
+  display: flex;
+  flex-wrap: wrap;
+
   min-height: 100vw;
   width: 100%;
 }
 
 .column-a {
-  grid-column: 1;
-  height: 100vh;
   padding-left: 2em;
   padding-right: 2em;
+  flex-basis: 57.1428571429vh;
+  flex-grow: 1;
 }
 
 .column-b {
-  grid-column: 2;
+  flex-basis: 57.1428571429vh;
+  flex-grow: 1;
 }
 
 .background-image {
-  background-color: var(--background-color, #f4f3ee);
+  background-blend-mode: screen;
   background-attachment: fixed;
-  background-image: url('/src/images/fall-photo-1.jpeg');
+  background-image: url('/src/images/fall-photo-2.jpeg');
   background-repeat: no-repeat;
   background-position-x: right;
+  background-size: contain;
+  background-color: hsl(57, 100%, 51%, 0.5);
+  background-blend-mode: multiply;
   min-height: 100vw;
 }
 
