@@ -6,15 +6,16 @@ import { brillo } from './brillo-de-facto';
 import { bury } from './bury';
 import { cabItUp } from './cab-it-up';
 import { cityDweller } from './city-dweller';
-import { getAhead } from './couldnt-get-ahead';
+import { couldntGetAhead } from './couldnt-get-ahead';
 import { cruisersCreek } from './cruisers-creek';
 import { deadbeatDescendant } from './dead-beat-descendant';
+import { devolute } from './devolute';
 import { disneysDream } from './disneys-dream-debased';
 import { distilledMugArt } from './distilled-mug-art';
 import { flatOfAngles } from './flat-of-angles';
 import { futuresAndPasts } from './futures-and-pasts';
-import { gibson } from './gibbus-gibson';
-import { iFeel } from './i-feel-voxish';
+import { gibbusGibson } from './gibbus-gibson';
+import { iFeelVoxish } from './i-feel-voxish';
 import { itsACurse } from './its-a-curse';
 import { justStepSWays } from './just-step-sways';
 import { lightFireworks } from './light-fireworks';
@@ -30,7 +31,7 @@ import { shoulderPads } from './shoulder-pads';
 import { sirWilliam } from './sir-william';
 import { takingOff } from './taking-off';
 import { theSteakPlace } from './the-steak-place';
-import { imTotallyWired } from './totally-wired';
+import { totallyWired } from './totally-wired';
 import { vixen } from './vixen';
 import { whiteLightning } from './white-lightning';
 import { winter2 } from './winter';
@@ -44,15 +45,16 @@ export const lyrics = [
   bury,
   cabItUp,
   cityDweller,
+  couldntGetAhead,
   cruisersCreek,
   deadbeatDescendant,
+  devolute,
   disneysDream,
   distilledMugArt,
   flatOfAngles,
   futuresAndPasts,
-  getAhead,
-  gibson,
-  iFeel,
+  gibbusGibson,
+  iFeelVoxish,
   itsACurse,
   justStepSWays,
   lightFireworks,
@@ -68,7 +70,7 @@ export const lyrics = [
   sirWilliam,
   takingOff,
   theSteakPlace,
-  imTotallyWired,
+  totallyWired,
   vixen,
   whiteLightning,
   winter2,

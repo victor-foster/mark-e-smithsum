@@ -1,4 +1,4 @@
-export const imTotallyWired = `I'm totally wired.
+export const totallyWired = `I'm totally wired.
 Can't you see?
 I'm totally wired.
 

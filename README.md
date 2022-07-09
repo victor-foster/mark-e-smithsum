@@ -36,23 +36,16 @@
 
 <!-- Table of Contents -->
 
-# :notebook_with_decorative_cover: Table of Contents
+## :notebook_with_decorative_cover: Table of Contents
 
 - [:notebook_with_decorative_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
-
-  - [:star2: About the Project](#star2-about-the-project)
-    - [:space_invader: Tech Stack](#space_invader-tech-stack)
-  - [:toolbox: Getting Started](#toolbox-getting-started)
-    - [:bangbang: Prerequisites](#bangbang-prerequisites)
-    - [:gear: Installation](#gear-installation)
-    - [:test_tube: Running Tests](#test_tube-running-tests)
-    - [:running: Run Locally](#running-run-locally)
-    - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
-  - [:warning: License](#warning-license)
-  - [:handshake: Contact](#handshake-contact)
-  - [:gem: Acknowledgements](#gem-acknowledgements)
-  - [Development](#development)
-  - [Deployment](#deployment)
+- [:star2: About the Project](#star2-about-the-project)
+  - [:space_invader: Tech Stack](#space_invader-tech-stack)
+- [:toolbox: Getting Started](#toolbox-getting-started)
+  - [:bangbang: Prerequisites](#bangbang-prerequisites)
+  - [:running: Development](#running-development)
+  - [:triangular_flag_on_post: Deployment](#triangular_flag_on_post-deployment)
+- [:gem: Acknowledgements](#gem-acknowledgements)
 
 <!-- About the Project -->
 
@@ -77,8 +70,9 @@
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   </ul>
 </details>
+
 <details>
-<summary>DevOps</summary>
+  <summary>DevOps</summary>
   <ul>
     <li><a href="https://www.netlify.com/">Netlify</a></li>
   </ul>
@@ -98,7 +92,7 @@ This project uses Yarn as package manager
  npm install --global yarn
 ```
 
-<!-- Running Tests -->
+<!-- Running Tests
 
 ### :test_tube: Running Tests
 
@@ -107,6 +101,7 @@ To run tests, run the following command
 ```bash
   yarn test test
 ```
+-->
 
 <!-- Run Locally -->
 
@@ -127,7 +122,7 @@ Start the server
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Update packages
+Updating packages
 
 ```bash
   yarn update
@@ -151,24 +146,10 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-<!-- License -->
-
-## :warning: License
-
-Distributed under the GNU GENERAL PUBLIC LICENSE. See LICENSE.txt for more information.
-
-<!-- Contact -->
-
-## :handshake: Contact
-
-Victor Foster - [@victor_foster](https://twitter.com/victor_foster)
-
-Project Link: [https://github.com/victor-foster/mark-e-smithsum/](https://github.com/victor-foster/mark-e-smithsum/)
-
 <!-- Acknowledgments -->
 
 ## :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+Thank you to these fantastic resources and libraries.
 
 - [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template)

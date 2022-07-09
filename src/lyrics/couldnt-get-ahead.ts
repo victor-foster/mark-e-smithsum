@@ -1,4 +1,4 @@
-export const getAhead = `Couldn't get ahead
+export const couldntGetAhead = `Couldn't get ahead
 I just couldn't get ahead
 
 Come out of pub, the shop is closed
