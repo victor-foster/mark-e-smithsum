@@ -22,7 +22,7 @@
 </p>
    
 <h4>
-    <a href="mark-e-smithsum.netlify.app/">View Demo</a>
+    <a href="https://mark-e-smithsum.netlify.app/">View Demo</a>
   <span> · </span>
     <a href="https://github.com/victor-foster/mark-e-smithsum/">Documentation</a>
   <span> · </span>
